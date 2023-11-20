@@ -9,11 +9,14 @@
 </head>
 <body>
     <nav id="navBar" class="navbar-white">
-        <img class="logo" src="images/logo-red.png">
+        <a href="index.html">
+            <img class="logo" src="images/logo-red.png">
+        </a>
+        
         <ul class="nav-links">
-            <li><a href="#" class="active">Popular Places</a></li>
-            <li><a href="#">Travel Outside</a></li>
-            <li><a href="#">Online Packages</a></li>
+            <li><a href="index.html" >Popular Places</a></li>
+            <li><a href="#" class="active">Travel Outside</a></li>
+            <li><a href="listing.html">Online Packages</a></li>
         </ul>
         <a href="#" class="register-btn">Register Now</a>
         <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
@@ -63,6 +66,75 @@
             </div>
             <button type="submit">Check Availability</button>
         </form>
+
+        <ul class="details-list">
+            <li><i class="fa-solid fa-house-chimney"></i>Entre Home
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="fa-solid fa-paintbrush"></i>Enhanced Clean
+                <span>This host has committed to staybnb's cleaning process.</span>
+            </li>
+            <li><i class="fa-solid fa-location-dot"></i>Great Location
+                <span>90% of the recent guests gave the location a 5 star rating.</span>
+            </li>
+            <li><i class="fa-solid fa-heart"></i>Great Check-in  Experience
+                <span>100% of the recent guests gave the check-in process a 5 start rating.</span>
+            </li>
+        </ul>
+
+        <hr class="line">
+        <p class="home-desc">Guests will be alocated on the ground floor according to 
+            availability.You get a comfortable two bedroom apartment that has a true city 
+            feeling.The price quoted is for two guest, at the guest slot please mark the number 
+            of guests to get the exact price for groups. The Guests will be allacated ground 
+            floor according to availability. You get the comfortable two bedroom apartment that has a true city feeling.
+        </p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.99657368078!2d-122.52017313064094!3d37.
+            75780691821015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco
+            %2C%20CA%2C%20USA!5e0!3m2!1sen!2sau!4v1700135258534!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>San Fransisco, California, United States</b>
+            <p>It's like a home away from home.</p>
+        </div>
+
+        <hr class="line">
+        <div class="host">
+            <img src="images/host.png">
+            <div>
+                <h2>Hosted by Ashfaque</h2>
+                <p><span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-sharp"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; 
+                Response rate 100% &nbsp; &nbsp; Response time: 60min</p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
     </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright @ 2023, Staybnb Demo</p>
+        </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
 </body>
 </html>
